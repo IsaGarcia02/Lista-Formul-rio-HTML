@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p><b>SISTEMA DE GESTÃO ACADÊMICA</b></p>
+    <p><b>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</b></p><br>
+
+    <form>
+        <b>Login</b>
+        <input type="text"><br><br>
+        <b>Senha</b> 
+        <input type="password"><br><br>
+
+       <b>Status</b>
+        <select name="Status">
+            <option value="Inativo">Inativo</option>
+            <option value="Ativo">Ativo</option>
+        </select><br><br>
+        
+        <b>Tipo</b>
+        <input type="radio" name="Status" value="Tecnico">Tecnico
+        <input type="radio" name="Status" value="Teacher"> Professor
+        <input type="radio" name="Status" value="student"> Aluno <br><br>
+        <b>Data Criação</b>
+        <input type="text"><br><br>
+        <b>Perfil </b>
+        <input type="radio" name="Perfil" value="Convidado">Convidado
+        <input type="radio" name="Perfil" value="Administrador">Administrador<br><br>
+        
+        <label for="">Observação:</label><br>
+        <textarea name="Observação" id="Observação" cols="48" rows="7"></textarea><br>
+    
+        <label for="modulos">Módulos:</label>
+
+        <input type="checkbox" name="Módulos" value="Compras">
+        <label for="modulos">Compras</label>
+        <input type="checkbox" name="Módulos" value="Biblioteca">
+        <label for="modulos">Biblioteca</label>
+        <input type="checkbox" name="Módulos" value="Acadêmico">
+        <label for="modulos">Acadêmico</label> <br>
+        <input type="checkbox" name="Módulos" value="Documentação">
+        <label for="modulos">Documentação</label>
+        <input type="checkbox" name="Módulos" value="RH">
+        <label for="modulos">Recursos Humanos</label> <br><br>
+        <input type="button" name="Cadastrar" value="Cadastrar">
+        <input type="button" name="Excluir" value="Excluir">
+    </form><br><br>
+
+
+</body>
+</html>
